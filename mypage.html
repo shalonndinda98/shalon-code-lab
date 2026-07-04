@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Northstar Studio</title>
+  <meta name="description" content="A basic static website demo with modern styling and simple interaction." />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+]  <header class="hero">
+    <nav class="navbar">
+      <a class="brand" href="#">Northstar Studio</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">Creative web design made simple</p>
+      <h1>Build a polished online presence.</h1>
+      <p class="lead">We help small businesses and personal brands launch beautiful, responsive websites that feel fast and modern.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#contact">Get Started</a>
+        <a class="button secondary" href="#services">View Services</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>Clean design, clear messaging, and strong first impressions.</h2>
+      </div>
+      <p>Our websites combine thoughtful layout, accessible content, and simple interactions so visitors can quickly understand what you offer.</p>
+    </section>
+
+    <section id="services" class="section cards">
+      <article class="card">
+        <h3>Landing Pages</h3>
+        <p>Focused pages that turn visitors into leads with clear calls to action.</p>
+      </article>
+      <article class="card">
+        <h3>Business Sites</h3>
+        <p>Reliable, professional websites for portfolios, services, and local businesses.</p>
+      </article>
+      <article class="card">
+        <h3>Fast Support</h3>
+        <p>Ongoing updates and simple maintenance to keep your site fresh.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s create something great together.</h2>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your name" />
+        <input type="email" placeholder="Your email" />
+        <textarea rows="4" placeholder="Tell us about your project"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Northstar Studio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
